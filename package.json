@@ -1,0 +1,20 @@
+{
+  "name": "e-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "We-bud",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
