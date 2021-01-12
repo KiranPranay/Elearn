@@ -712,7 +712,7 @@ body {
     overflow: hidden;
     text-shadow: none;
     font-size: 80%;
-    position: fixed;
+    position: relative;
     bottom: 0;
   }
   #footer .sidebar_item h5 {
