@@ -414,10 +414,6 @@ body {
     background: #fff6a9;
     color: #222;
   }
-  ::-moz-selection {
-    background: #fff6a9;
-    color: #222;
-  }
   .upper .topnav h2,
   .upper .nav > li > a {
     text-transform: uppercase;
@@ -955,18 +951,6 @@ body {
     max-width: 100%;
     height: auto;
     display: block;
-  }
-  ::-moz-selection {
-    background: #fff6a9;
-    color: #222;
-  }
-  ::selection {
-    background: #fff6a9;
-    color: #222;
-  }
-  ::-moz-selection {
-    background: #fff6a9;
-    color: #222;
   }
   .upper .sidebar_item h5 {
     text-transform: uppercase;
