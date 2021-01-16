@@ -857,7 +857,7 @@ body {
   }
   .landing-section ul.social-menu {
     float: none;
-    margin: 0 auto;
+    margin: 3px;
     display: block;
     text-align: center;
   }
@@ -876,7 +876,6 @@ body {
     -o-transition: opacity 0.3s ease-in;
   }
   .landing-section ul.social-menu li {
-    margin: 35px 5px 25px;
     display: inline-block;
     float: none;
   }
