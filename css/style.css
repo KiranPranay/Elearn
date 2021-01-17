@@ -111,7 +111,7 @@ body {
   #header .container_vis {
     border: 1px solid rgba(255, 255, 255, 0.1);
     -webkit-box-shadow: 0px 0px 43px 10px rgba(0, 0, 0, 0.35);
-    box-shadow: 0px 0px 43px 10px rgba(0, 0, 0, 0.35);
+            box-shadow: 0px 0px 43px 10px rgba(0, 0, 0, 0.35);
   }
   #header img {
     margin: 0 auto;
@@ -423,6 +423,7 @@ body {
   .container,
   .container_vis {
     width: 100%;
+    max-width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
     overflow: hidden;
@@ -433,6 +434,7 @@ body {
   }
   #header .container_vis {
     padding: 15px 40px;
+    max-width: 1280px;
   }
   .clearfix:after {
     clear: both;
@@ -871,19 +873,18 @@ body {
     padding: 0;
     overflow: hidden;
     text-align: center;
-    -moz-transition: opacity 0.3s ease-in;
     -webkit-transition: opacity 0.3s ease-in;
-    -o-transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-in;
   }
   .landing-section ul.social-menu li {
+    margin: 35px 5px 25px;
     display: inline-block;
     float: none;
   }
   ul.social-menu li:hover {
     opacity: 1;
-    -moz-transition: opacity 0.3s ease-in;
     -webkit-transition: opacity 0.3s ease-in;
-    -o-transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-in;
   }
   .landing-section ul.social-menu li.search-item {
     display: none;
