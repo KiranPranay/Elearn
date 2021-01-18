@@ -985,7 +985,7 @@ body {
     width: 100%;
     max-width: 1240px;
     margin: 0 auto;
-    padding: 0 20px;
+    // padding: 15px;
     overflow: hidden;
     position: relative;
   }
@@ -1572,79 +1572,7 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
     width: 1140px;
     margin: 0 auto;
   }
-  @media (min-width: 1200px) {
-    .u-sheet {
-      width: 1140px;
-    }
-  }
-  @media (min-width: 992px) and (max-width: 1199px) {
-    .u-sheet {
-      width: 940px;
-    }
-  }
-  @media (min-width: 768px) and (max-width: 991px) {
-    .u-sheet {
-      width: 720px;
-    }
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    .u-sheet {
-      width: 540px;
-    }
-  }
-  @media (max-width: 575px) {
-    .u-sheet {
-      width: 340px;
-    }
-  }
-  .u-container-layout {
-    position: relative;
-    flex: 1;
-    max-width: 100%;
-  }
-  .u-container-layout > * {
-    position: relative;
-  }
-  @media (min-width: 576px) and (max-width: 767px) {
-    .u-expanded-width-sm {
-      width: 100% !important;
-      margin-left: 0 !important;
-      margin-right: 0 !important;
-    }
-  }
-  @media (min-width: 1200px) {
-    .u-valign-middle-xl {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  @media (min-width: 768px) and (max-width: 991px) {
-    .u-valign-middle-md {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  @media (max-width: 575px) {
-    .u-valign-middle-xs {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  @media (min-width: 1200px) {
-    .u-valign-middle-xl {
-      justify-content: center;
-    }
-  }
-  @media (min-width: 768px) and (max-width: 991px) {
-    .u-valign-middle-md {
-      justify-content: center;
-    }
-  }
-  @media (max-width: 575px) {
-    .u-valign-middle-xs {
-      justify-content: center;
-    }
-  }
+
   .u-sheet:not(.u-image):not(.u-video) {
     pointer-events: none;
   }
@@ -1842,8 +1770,8 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
     font-weight: 400;
     font-size: 2.25rem;
     line-height: 1.1;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    // margin-top: 20px;
+    // margin-bottom: 20px;
   }
   p:not(.u-text-variant) {
     margin-top: 20px;
@@ -1852,11 +1780,6 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   .u-btn {
     margin-top: 20px;
     margin-bottom: 20px;
-  }
-  @media (max-width: 575px) {
-    h2:not(.u-subtitle) {
-      font-size: 1.5rem;
-    }
   }
 
   .u-btn {
@@ -1892,6 +1815,90 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   .u-palette-2-base .u-btn:active {
     background-color: #8db8e0;
     color: #ffffff;
+  }
+  .section-head {
+    text-align: center;
+    margin-top: 18px;
+    position: relative;
+    top: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  .u-sheet {
+    width: 1140px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .u-sheet {
+    width: 940px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .u-sheet {
+    width: 720px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .u-sheet {
+    width: 540px;
+  }
+}
+@media (max-width: 575px) {
+  .u-sheet {
+    width: 340px;
+  }
+}
+.u-container-layout {
+  position: relative;
+  flex: 1;
+  max-width: 100%;
+}
+.u-container-layout > * {
+  position: relative;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .u-expanded-width-sm {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+@media (min-width: 1200px) {
+  .u-valign-middle-xl {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .u-valign-middle-md {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 575px) {
+  .u-valign-middle-xs {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 1200px) {
+  .u-valign-middle-xl {
+    justify-content: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .u-valign-middle-md {
+    justify-content: center;
+  }
+}
+@media (max-width: 575px) {
+  .u-valign-middle-xs {
+    justify-content: center;
+  }
+}
+@media (max-width: 575px) {
+  h2:not(.u-subtitle) {
+    font-size: 1.5rem;
   }
 }
 /*! CSS Used from: Embedded */
@@ -1942,6 +1949,12 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   letter-spacing: normal;
   margin: 20px auto 0;
   padding: 0;
+}
+.u-list-item {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
 }
 .u-section-2 .u-list-item-2 {
   background-image: none;
