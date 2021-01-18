@@ -3,6 +3,17 @@ body {
   padding: 0;
 }
 
+.html {
+  scrollbar-face-color: #646464;
+  scrollbar-base-color: #646464;
+  scrollbar-3dlight-color: #646464;
+  scrollbar-highlight-color: #646464;
+  scrollbar-track-color: #000;
+  scrollbar-arrow-color: #000;
+  scrollbar-shadow-color: #646464;
+  scrollbar-dark-shadow-color: #646464;
+}
+
 /*! CSS Used from: http://dannci.wpmasters.org/learnpress/wp-content/cache/autoptimize/1/css/autoptimize_5f9ab2c93a4616ba8ef6719b12ee5c7f.css ; media=all */
 @media all {
   div,
