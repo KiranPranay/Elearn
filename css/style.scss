@@ -36,8 +36,6 @@ body {
     border: 0;
   }
   * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
   .clearfix:after {
@@ -78,13 +76,9 @@ body {
   }
   .tranz,
   .nav > li > a:before {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
     transition: all 0.5s ease;
   }
   .tranz2 {
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
     transition: all 0.2s ease;
   }
   a,
@@ -92,17 +86,12 @@ body {
   .nav li a,
   .ribbon {
     text-decoration: none;
-    -moz-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
-    -ms-transition: all 0.2s ease-in;
   }
   h2 {
     padding: 0;
     margin: 0;
     line-height: 1.15;
-    -ms-word-wrap: break-word;
     word-wrap: break-word;
   }
   h2 {
@@ -203,8 +192,6 @@ body {
     z-index: 9;
   }
   .nav li ul.sub-menu {
-    -webkit-box-shadow: 0 0 7px -2px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 0 7px -2px rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 7px -2px rgba(0, 0, 0, 0.1);
   }
   .nav li ul li > a {
@@ -355,18 +342,14 @@ body {
     padding: 0;
     overflow: hidden;
     text-align: center;
-    -moz-transition: opacity 0.3s ease-in;
-    -webkit-transition: opacity 0.3s ease-in;
-    -o-transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-in;
   }
   .topnav ul.social-menu li {
     margin: 0 0 0 2px;
   }
   ul.social-menu li:hover {
     opacity: 1;
-    -moz-transition: opacity 0.3s ease-in;
-    -webkit-transition: opacity 0.3s ease-in;
-    -o-transition: opacity 0.3s ease-in;
+    transition: opacity 0.3s ease-in;
   }
   ul.social-menu li a {
     margin: 0;
@@ -1357,9 +1340,7 @@ body {
     vertical-align: middle;
     -webkit-user-drag: none;
     user-drag: none;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
+    user-select: none;
   }
   .store-btns ul {
     margin-top: -15px;
@@ -1856,6 +1837,7 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
 @media (max-width: 575px) {
   .u-sheet {
     width: 340px;
+    top: 310px;
   }
 }
 .u-container-layout {
