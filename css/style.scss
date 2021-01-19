@@ -182,7 +182,7 @@ body {
   }
   .nav > li {
     margin: 0;
-    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
   }
   .nav li ul {
     margin: 5px 0 0 15px;
@@ -1339,7 +1339,6 @@ body {
   img {
     vertical-align: middle;
     -webkit-user-drag: none;
-    user-drag: none;
     user-select: none;
   }
   .store-btns ul {
@@ -1369,10 +1368,7 @@ body {
 
     user-select: none;
     -webkit-user-drag: none;
-    user-drag: none;
-
     touch-action: manipulation;
-
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   }
   .store-btns a > * {
@@ -1550,7 +1546,7 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   .u-image {
     object-fit: cover;
     display: block;
-    vertical-align: middle;
+    // vertical-align: middle;
     background-size: cover;
     background-position: 50% 50%;
     background-repeat: no-repeat;
