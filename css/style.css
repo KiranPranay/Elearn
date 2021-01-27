@@ -483,7 +483,7 @@ body {
     font-family: Karla;
     font-weight: 700;
     font-style: normal;
-    color: #fff;
+    color: #111;
     font-size: 13px;
     font-display: swap;
   }
@@ -1180,7 +1180,7 @@ body {
     line-height: 1.2;
     font-weight: 700;
     font-family: Quicksand, sans-serif;
-    color: #ffffff;
+    color: #000000;
     margin-top: 20px;
     margin-bottom: 20px;
     -webkit-transition: color 0.3s ease-in-out;
@@ -1188,7 +1188,7 @@ body {
     word-break: break-word;
   }
   p {
-    color: #ffffff;
+    color: #000000;
   }
   h1:first-child {
     margin-top: 0;
@@ -1204,8 +1204,8 @@ body {
   }
   main {
     background: #020024;
-    background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(100%, #8b0808), to(#00d4ff));
-    background: linear-gradient(90deg, #020024 0%, #8b0808 100%, #00d4ff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#e0f6ff), to(#ecfafc));
+    background: linear-gradient(#e0f6ff, #ecfafc);
   }
   main ::-moz-selection {
     background-color: #056eb9;
@@ -2265,112 +2265,6 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   }
 }
 
-.classes {
-  background-color: #ffffff;
-  padding-bottom: 80px;
-}
-
-.classes .section-head h1 {
-  color: #000 !important;
-}
-
-.classes h2 {
-  font-family: Arbutus Slab, serif;
-  font-weight: normal;
-  color: #000;
-  line-height: 1.25;
-}
-
-.classes p {
-  position: absolute;
-  bottom: 0;
-  font-size: 14px;
-  color: #000;
-}
-
-.classes .container {
-  max-width: 900px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (minmax(160px, 1fr))[auto-fill];
-      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  grid-gap: 48px;
-  margin: 0 auto;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-.classes .card {
-  cursor: pointer;
-  position: relative;
-  height: 0;
-  padding-bottom: 120%;
-  --offset-multiplier: 4px;
-  -webkit-transition: -webkit-transform 0.6s ease;
-  transition: -webkit-transform 0.6s ease;
-  transition: transform 0.6s ease;
-  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
-  --translate: 0;
-  -webkit-transform: translate(var(--translate), var(--translate));
-          transform: translate(var(--translate), var(--translate));
-}
-
-.classes .card:hover {
-  --offset-multiplier: 6px;
-}
-
-.classes .card:hover {
-  --translate: calc(-1px * (var(--cards) - 1));
-  -webkit-transition: -webkit-transform 0.3s ease;
-  transition: -webkit-transform 0.3s ease;
-  transition: transform 0.3s ease;
-  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
-}
-
-.classes .child {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  padding: 0 16px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background: #fff;
-  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px -4px 8px rgba(255, 255, 255, 0.8);
-          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1), 0px -4px 8px rgba(255, 255, 255, 0.8);
-  border-radius: 6px;
-  -webkit-transition: inherit;
-  transition: inherit;
-  --translate: calc(var(--offset) * var(--offset-multiplier));
-  -webkit-transform: translate(var(--translate), var(--translate));
-          transform: translate(var(--translate), var(--translate));
-  z-index: 5;
-}
-
-.classes .child:nth-child(1) {
-  --offset: 0;
-  z-index: 4;
-}
-
-.classes .child:nth-child(2) {
-  --offset: 1;
-  z-index: 3;
-}
-
-.classes .child:nth-child(3) {
-  --offset: 2;
-  z-index: 2;
-}
-
-.classes .child:nth-child(4) {
-  --offset: 3;
-  z-index: 1;
-}
-
-.classes .child:nth-child(5) {
-  --offset: 4;
-  z-index: 0;
-}
-
 .contact-form {
   background: #f1f1f1;
   font-family: "Merriweather", sans-serif;
@@ -2487,7 +2381,7 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
 .testim .arrow {
   display: block;
   position: absolute;
-  color: #eee;
+  color: #111;
   cursor: pointer;
   font-size: 2em;
   top: 50%;
@@ -2532,7 +2426,7 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 1px solid #eee;
+  border: 1px solid #111111;
   margin: 0 10px;
   cursor: pointer;
   -webkit-transition: all 0.5s ease-in-out;
@@ -2590,7 +2484,7 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
 
 .testim .cont div p {
   font-size: 1.15em;
-  color: #eee;
+  color: #111111;
   width: 80%;
   margin: auto;
 }

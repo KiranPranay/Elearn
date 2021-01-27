@@ -220,9 +220,7 @@ section {
 }
 @media (min-width: 992px) {
   .media-container-row {
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
+    // flex-wrap: nowrap;
   }
 }
 .card {
@@ -638,9 +636,7 @@ section {
 }
 @media (min-width: 992px) {
   .media-container-row {
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
+    // flex-wrap: nowrap;
   }
 }
 /*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/mobirise/css/mbr-additional.css */

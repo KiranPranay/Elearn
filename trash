@@ -1,0 +1,75 @@
+<section class="classes">
+        <div class="section-head">
+          <h1>Classes</h1>
+        </div>
+        <div class="container">
+          <div class="card" style="--cards: 5">
+            <div class="child">
+              <h4>1-5 classes</h4>
+              <p>5 articles</p>
+            </div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+          </div>
+          <div class="card" style="--cards: 3">
+            <div class="child">
+              <h4>6-8 classes</h4>
+              <p>3 articles</p>
+            </div>
+            <div class="child"></div>
+            <div class="child"></div>
+          </div>
+          <div class="card" style="--cards: 2">
+            <div class="child">
+              <h4>9th & 10th classses</h4>
+              <p>2 articles</p>
+            </div>
+            <div class="child"></div>
+          </div>
+          <div class="card" style="--cards: 4">
+            <div class="child">
+              <h4>Crash Courses</h4>
+              <p>4 articles</p>
+            </div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+          </div>
+          <!-- <div class="card" style="--cards: 4">
+            <div class="child">
+              <h4>Why you've been disinherited</h4>
+              <p>4 articles</p>
+            </div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+          </div> -->
+          <!-- <div class="card" style="--cards: 3">
+            <div class="child">
+              <h4>How to commit fraud, legally</h4>
+              <p>3 articles</p>
+            </div>
+            <div class="child"></div>
+            <div class="child"></div>
+          </div> -->
+          <!-- <div class="card" style="--cards: 5">
+            <div class="child">
+              <h4>Stay together for the kids</h4>
+              <p>5 articles</p>
+            </div>
+            <div class="child"></div>
+            <div class="child"></div>
+            <div class="child"></div>
+          </div> -->
+          <!-- <div class="card" style="--cards: 3">
+            <div class="child">
+              <h4>Picking music for your funeral</h4>
+              <p>3 articles</p>
+            </div>
+            <div class="child"></div>
+            <div class="child"></div>
+          </div> -->
+        </div>
+      </section>

@@ -259,13 +259,6 @@ section {
           align-items: start;
 }
 
-@media (min-width: 992px) {
-  .media-container-row {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
-}
-
 .card {
   background-color: transparent;
   border: none;
@@ -753,13 +746,6 @@ section {
   -ms-flex-align: start;
   -webkit-box-align: start;
           align-items: start;
-}
-
-@media (min-width: 992px) {
-  .media-container-row {
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-  }
 }
 
 /*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/mobirise/css/mbr-additional.css */
