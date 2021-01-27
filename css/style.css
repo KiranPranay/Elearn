@@ -96,8 +96,7 @@ body {
     padding: 0;
   }
   .topnav {
-    overflow: hidden;
-    background-color: #db3a58;
+    background-color: #602fdf;
   }
   .topnav:hover {
     opacity: 1;
