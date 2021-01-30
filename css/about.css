@@ -202,139 +202,108 @@ section {
   background-image: url("https://mobirise.com/bootstrap-template/about-us-page-template/assets/images/mitch-rosen-188054-2000x1125.jpg");
 }
 
-/*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/web/assets/mobirise-icons/mobirise-icons.css */
-[class*=" mbri-"] {
-  font-family: MobiriseIcons !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*! CSS Used from: https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css */
+*,
+::after,
+::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-/*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/bootstrap/css/bootstrap.min.css */
-/*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/theme/css/style.css */
 section {
-  background-color: #eeeeee;
+  display: block;
 }
 
-section,
+h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+h2 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
 .container {
-  position: relative;
-  word-wrap: break-word;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-h4 {
-  line-height: 1;
-  word-break: break-word;
-  word-wrap: break-word;
-}
-
-section {
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.media-container-row {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-direction: row;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-pack: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -ms-flex-align: start;
-  -webkit-box-align: start;
-          align-items: start;
-}
-
-.card {
-  background-color: transparent;
-  border: none;
-}
-
-.card-img {
-  text-align: center;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-}
-
-/*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/mobirise/css/mbr-additional.css */
-.mbr-text {
-  font-style: normal;
-  line-height: 1.6;
-}
-
-.display-5 {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 1.5rem;
-}
-
-.display-7 {
-  font-family: "Rubik", sans-serif;
-  font-size: 1rem;
-}
-
-@media (max-width: 768px) {
-  .display-5 {
-    font-size: 1.2rem;
-    font-size: calc(1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
   }
 }
 
-.card-img {
-  width: auto;
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
 }
 
-.cid-qyvcAqZyNq {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffffff;
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
 }
 
-.cid-qyvcAqZyNq .mbr-text {
-  color: #232323;
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
 }
 
-.cid-qyvcAqZyNq h4 {
-  text-align: center;
+.row {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
-.cid-qyvcAqZyNq p {
-  text-align: center;
+.col-md-4,
+.col-md-8 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
-.cid-qyvcAqZyNq .card-img span {
-  font-size: 96px;
-  color: #149dcc;
+@media (min-width: 768px) {
+  .col-md-4 {
+    -ms-flex: 0 0 33.333333%;
+    -webkit-box-flex: 0;
+            flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+  .col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    -webkit-box-flex: 0;
+            flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+  }
 }
 
-/*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/web/assets/mobirise-icons/mobirise-icons.css */
-[class^="mbri-"] {
-  font-family: MobiriseIcons !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/bootstrap/css/bootstrap.min.css */
 @media print {
   *,
   ::after,
@@ -343,564 +312,191 @@ section {
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
   }
-  a,
-  a:visited {
-    text-decoration: underline;
-  }
   img {
     page-break-inside: avoid;
   }
   h2,
-  h3 {
+  p {
     orphans: 3;
     widows: 3;
   }
-  h2,
-  h3 {
+  h2 {
     page-break-after: avoid;
   }
-}
-
-*,
-::after,
-::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
-
-section {
-  display: block;
-}
-
-h2,
-h3 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
-a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
-
-a:hover {
-  color: #0056b3;
-  text-decoration: underline;
-}
-
-img {
-  vertical-align: middle;
-  border-style: none;
-}
-
-[role="button"],
-a {
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-}
-
-h2,
-h3 {
-  margin-bottom: 0.5rem;
-  font-family: inherit;
-  font-weight: 500;
-  line-height: 1.1;
-  color: inherit;
-}
-
-h2 {
-  font-size: 2rem;
-}
-
-h3 {
-  font-size: 1.75rem;
-}
-
-.display-2 {
-  font-size: 5.5rem;
-  font-weight: 300;
-  line-height: 1.1;
-}
-
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  width: 100%;
-}
-
-@media (min-width: 576px) {
   .container {
-    max-width: 540px;
+    min-width: 992px !important;
   }
 }
 
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
-.col-12,
-.col-md-12 {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.col-12 {
-  -ms-flex: 0 0 100%;
-  -webkit-box-flex: 0;
-          flex: 0 0 100%;
-  max-width: 100%;
-}
-
-@media (min-width: 768px) {
-  .col-md-12 {
-    -ms-flex: 0 0 100%;
-    -webkit-box-flex: 0;
-            flex: 0 0 100%;
-    max-width: 100%;
-  }
-}
-
-.carousel {
-  position: relative;
-}
-
-.carousel-inner {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-}
-
-.carousel-item {
-  position: relative;
-  display: none;
-  -ms-flex-align: center;
-  -webkit-box-align: center;
-          align-items: center;
-  width: 100%;
-  transition: -webkit-transform 0.6s ease;
-  -webkit-transition: -webkit-transform 0.6s ease;
-  transition: transform 0.6s ease;
-  transition: transform 0.6s ease, -webkit-transform 0.6s ease;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-}
-
-.carousel-item.active {
-  display: block;
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-align: center;
-  -webkit-box-align: center;
-          align-items: center;
-  -ms-flex-pack: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-  width: 15%;
-  color: #fff;
-  text-align: center;
-  opacity: 0.5;
-}
-
-.carousel-control-next:focus,
-.carousel-control-next:hover,
-.carousel-control-prev:focus,
-.carousel-control-prev:hover {
-  color: #fff;
-  text-decoration: none;
-  outline: 0;
-  opacity: 0.9;
-}
-
-.carousel-control-prev {
-  left: 0;
-}
-
-.carousel-control-next {
-  right: 0;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  -webkit-clip-path: inset(50%);
-  clip-path: inset(50%);
-  border: 0;
-}
-
-.mb-5 {
-  margin-bottom: 3rem !important;
-}
-
-.pb-3 {
-  padding-bottom: 1rem !important;
-}
-
-/*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/bootstrap/css/bootstrap-grid.min.css */
-*,
-::after,
-::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
-
-.container {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  width: 100%;
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
-.col-12,
-.col-md-12 {
-  position: relative;
-  width: 100%;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.col-12 {
-  -ms-flex: 0 0 100%;
-  -webkit-box-flex: 0;
-          flex: 0 0 100%;
-  max-width: 100%;
-}
-
-@media (min-width: 768px) {
-  .col-md-12 {
-    -ms-flex: 0 0 100%;
-    -webkit-box-flex: 0;
-            flex: 0 0 100%;
-    max-width: 100%;
-  }
-}
-
-/*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/bootstrap/css/bootstrap-reboot.min.css */
-*,
-::after,
-::before {
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
-}
-
-section {
-  display: block;
-}
-
-h2,
-h3 {
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
-
-a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-}
-
-a:hover {
-  color: #0056b3;
-  text-decoration: underline;
-}
-
-img {
-  vertical-align: middle;
-  border-style: none;
-}
-
-[role="button"],
-a {
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
-}
-
-/*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/theme/css/style.css */
-section {
-  background-color: #eeeeee;
-}
-
-section,
-.container {
-  position: relative;
-  word-wrap: break-word;
-}
-
-a {
-  font-style: normal;
-  font-weight: 400;
-  cursor: pointer;
-}
-
-a,
-a:hover {
-  text-decoration: none;
-}
-
-h2,
-h3,
-.display-2 {
-  line-height: 1;
-  word-break: break-word;
-  word-wrap: break-word;
-}
-
-section {
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+/*! CSS Used from: https://hacksrm.tech/dist/css/style.min.css */
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-transition-duration: 50ms;
+  transition-duration: 50ms;
 }
 
-.align-center {
+.row {
+  margin: auto !important;
+}
+
+.section-title {
+  margin: 50px 0;
+  font-size: 5rem;
   text-align: center;
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-@media (max-width: 767px) {
-  .align-center,
-  .mbr-section-title {
-    text-align: center;
-  }
+main .page-section {
+  padding: 60px 0;
+  background-color: #fff;
 }
 
-.mbr-light {
-  font-weight: 300;
-}
-
-.media-container-row {
-  display: -ms-flexbox;
+.themes .container {
+  margin-top: 100px;
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  -ms-flex-direction: row;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -ms-flex-pack: center;
-  -webkit-box-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  -ms-flex-align: start;
-  -webkit-box-align: start;
-          align-items: start;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 80px;
 }
 
-/*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/mobirise/css/mbr-additional.css */
-.mbr-section-title {
-  font-style: normal;
-  line-height: 1.2;
+.themes .container .row {
+  -ms-flex-wrap: wrap-reverse;
+  flex-wrap: wrap-reverse;
 }
 
-.mbr-section-subtitle {
-  line-height: 1.3;
-}
-
-.display-2 {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 3rem;
-}
-
-.display-5 {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 1.5rem;
-}
-
-@media (max-width: 768px) {
-  .display-2 {
-    font-size: 2.4rem;
-    font-size: calc(1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.7rem + (3 - 1.7) * ((100vw - 20rem) / (48 - 20))));
-  }
-  .display-5 {
-    font-size: 1.2rem;
-    font-size: calc(1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.175rem + (1.5 - 1.175) * ((100vw - 20rem) / (48 - 20))));
-  }
-}
-
-a,
-a:hover {
-  color: #149dcc;
-}
-
-.carousel-item.active {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.cid-qyvf5b5WEt {
-  padding-top: 90px;
-  padding-bottom: 90px;
-  background-color: #ffe0e7;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffe0e7), to(#ecfafc));
-  background: linear-gradient(#ffe0e7, #ecfafc);
-}
-
-.cid-qyvf5b5WEt .carousel-control {
-  background: #000;
-}
-
-.cid-qyvf5b5WEt .mbr-section-subtitle {
-  color: #232323;
-}
-
-.cid-qyvf5b5WEt .carousel-item {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.cid-qyvf5b5WEt .carousel-item .media-container-row {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-.cid-qyvf5b5WEt .carousel-item .wrap-img {
-  text-align: center;
-}
-
-.cid-qyvf5b5WEt .carousel-item .wrap-img img {
-  max-height: 150px;
-  width: auto;
-  max-width: 100%;
-}
-
-.cid-qyvf5b5WEt .carousel-controls {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.cid-qyvf5b5WEt .carousel-controls .carousel-control {
-  background: #000;
-  border-radius: 50%;
-  position: static;
-  width: 40px;
-  height: 40px;
-  margin-top: 2rem;
-  border-width: 1px;
-}
-
-.cid-qyvf5b5WEt .carousel-controls .carousel-control.carousel-control-prev {
-  left: auto;
-  margin-right: 20px;
-  margin-left: 0;
-}
-
-.cid-qyvf5b5WEt .carousel-controls .carousel-control.carousel-control-next {
-  right: auto;
-  margin-right: 0;
-}
-
-.cid-qyvf5b5WEt .carousel-controls .carousel-control .mbr-iconfont {
-  font-size: 1rem;
-}
-
-.cid-qyvf5b5WEt .cloneditem-1,
-.cid-qyvf5b5WEt .cloneditem-2,
-.cid-qyvf5b5WEt .cloneditem-3,
-.cid-qyvf5b5WEt .cloneditem-4 {
-  display: none;
-}
-
-.cid-qyvf5b5WEt .col-lg-15 {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 100%;
-  flex: 0 0 100%;
-  max-width: 100%;
-  position: relative;
-  min-height: 1px;
-  padding-right: 10px;
-  padding-left: 10px;
+.themes .container .row img {
   width: 100%;
 }
 
-@media (min-width: 992px) {
-  .cid-qyvf5b5WEt .col-lg-15 {
-    -ms-flex: 0 0 20%;
-    -webkit-box-flex: 0;
-            flex: 0 0 20%;
-    max-width: 20%;
-    width: 20%;
+.themes .container .row .info {
+  padding: 0 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.themes .container .row .info .theme-title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: #1c1b20;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.themes .container .row .info .theme-info {
+  font-size: 1.2rem;
+  font-weight: 700;
+  opacity: 0.5;
+  word-spacing: 3px;
+  text-align: right;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.themes .container .left {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+
+.themes .container .left .info {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.themes .container .left .info .theme-info {
+  text-align: left;
+}
+
+/*! CSS Used from: https://hacksrm.tech/dist/css/responsive.min.css */
+@media screen and (max-width: 900px) {
+  .row {
+    margin: -15px;
   }
-  .cid-qyvf5b5WEt .carousel-inner.slides5 > .carousel-item.active {
-    left: 0;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+  main section {
+    padding: 30px 0;
   }
-  .cid-qyvf5b5WEt .carousel-inner.slides5 .cloneditem-1,
-  .cid-qyvf5b5WEt .carousel-inner.slides5 .cloneditem-2,
-  .cid-qyvf5b5WEt .carousel-inner.slides5 .cloneditem-3,
-  .cid-qyvf5b5WEt .carousel-inner.slides5 .cloneditem-4 {
-    display: block;
+  .section-title {
+    margin: 50px 0;
+    font-size: 3rem !important;
+    text-align: center;
+    font-weight: 700;
   }
+  .themes .container .row .info {
+    margin-top: 50px;
+    padding: 0 15px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .themes .container .row .info .theme-title {
+    margin-bottom: 20px;
+  }
+  .themes .container .row .info .theme-info {
+    text-align: justify;
+  }
+}
+
+/*! CSS Used from: https://hacksrm.tech/dist/css/canvas-particle.min.css */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*! CSS Used from: https://hacksrm.tech/dist/css/footer.min.css */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*! CSS Used from: https://hacksrm.tech/dist/css/darkmode.min.css */
+.dark-mode {
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+/*! CSS Used from: https://hacksrm.tech/dist/css/scrollbar.min.css */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 /*# sourceMappingURL=about.css.map */
