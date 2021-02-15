@@ -15,9 +15,9 @@ body {
   text-align: center;
   margin: 0 auto;
   padding: 40px 0;
-  font: 300 60px "Oswald", sans-serif;
   letter-spacing: 6px;
   color: #fff;
+  font-family: mulish;
 }
 
 .contact-wrapper {
@@ -38,7 +38,6 @@ body {
 .form-control,
 textarea {
   max-width: 400px;
-  background-color: #444242;
   color: #fff;
   letter-spacing: 1px;
 }
@@ -87,13 +86,12 @@ textarea {
 
 .list-item {
   line-height: 4;
-  color: #aaa;
+  color: #ffffff;
 }
 
 .contact-text {
   font: 300 18px "Lato", sans-serif;
   letter-spacing: 1.9px;
-  color: #bbb;
 }
 
 .place {
@@ -109,7 +107,7 @@ textarea {
 }
 
 .contact-text a {
-  color: #bbb;
+  color: #ffffff;
   text-decoration: none;
   -webkit-transition-duration: 0.2s;
           transition-duration: 0.2s;

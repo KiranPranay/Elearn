@@ -16,6 +16,10 @@
           box-sizing: inherit;
 }
 
+.header1 {
+  height: 38vh;
+}
+
 section {
   display: block;
 }
@@ -176,7 +180,7 @@ section {
 
 /*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/theme/css/style.css */
 section {
-  background-color: #eeeeee;
+  background-color: #7395ae;
 }
 
 section,
@@ -354,7 +358,7 @@ h2 {
 
 main .page-section {
   padding: 60px 0;
-  background-color: #fff;
+  background-color: #7395ae;
 }
 
 .themes .container {
@@ -461,20 +465,6 @@ main .page-section {
   .themes .container .row .info .theme-info {
     text-align: justify;
   }
-}
-
-/*! CSS Used from: https://hacksrm.tech/dist/css/canvas-particle.min.css */
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/*! CSS Used from: https://hacksrm.tech/dist/css/footer.min.css */
-* {
-  margin: 0;
-  padding: 0;
 }
 
 /*! CSS Used from: https://hacksrm.tech/dist/css/darkmode.min.css */

@@ -1,4 +1,12 @@
 /*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/bootstrap/css/bootstrap.min.css */
+$red: #e74c3c;
+$background: #7395ae;
+$secbak: #557a95;
+$darkbak: #254e58;
+$bak3: #5d5c61;
+$bak4: #379683;
+$bak5: #b1a296;
+$textcol: #ffffff;
 @media print {
   *,
   ::after,
@@ -11,6 +19,9 @@
 ::after,
 ::before {
   box-sizing: inherit;
+}
+.header1 {
+  height: 38vh;
 }
 section {
   display: block;
@@ -142,7 +153,7 @@ section {
 }
 /*! CSS Used from: https://mobirise.com/bootstrap-template/about-us-page-template/assets/theme/css/style.css */
 section {
-  background-color: #eeeeee;
+  background-color: $background;
 }
 section,
 .container {
@@ -292,7 +303,7 @@ h2 {
 }
 main .page-section {
   padding: 60px 0;
-  background-color: #fff;
+  background-color: $background;
 }
 .themes .container {
   margin-top: 100px;
@@ -390,18 +401,7 @@ main .page-section {
     text-align: justify;
   }
 }
-/*! CSS Used from: https://hacksrm.tech/dist/css/canvas-particle.min.css */
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-/*! CSS Used from: https://hacksrm.tech/dist/css/footer.min.css */
-* {
-  margin: 0;
-  padding: 0;
-}
+
 /*! CSS Used from: https://hacksrm.tech/dist/css/darkmode.min.css */
 .dark-mode {
   -webkit-transition: background-color 1s;
