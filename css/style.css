@@ -1,6 +1,15 @@
+@font-face {
+  font-family: "mulish";
+  src: url("fonts/Mulish-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   padding: 0;
+  font-family: "mulish";
+  color: #ffffff;
 }
 
 .html {
@@ -96,7 +105,7 @@ body {
     padding: 0;
   }
   .topnav {
-    background-color: #602fdf;
+    background-color: #557a95;
   }
   .topnav:hover {
     opacity: 1;
@@ -117,9 +126,7 @@ body {
     z-index: 10;
   }
   #header .container_vis {
-    background: rgba(255, 255, 255, 0.25) !important;
-    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+    background-color: #557a95 !important;
     -webkit-backdrop-filter: blur(4px) !important;
             backdrop-filter: blur(4px) !important;
     border-radius: 10px !important;
@@ -479,22 +486,23 @@ body {
     background-color: #17082d;
   }
   .nav > li > a {
-    font-family: Karla;
+    font-family: "mulish";
     font-weight: 700;
     font-style: normal;
-    color: #111;
+    color: #ffffff;
     font-size: 13px;
     font-display: swap;
+    letter-spacing: 0.8px;
   }
   li.current-menu-item > a,
   .nav > li > a:hover {
     color: #6ec1e3;
   }
   .nav li ul {
-    background-color: #309267;
+    background-color: #254e58;
   }
   .nav > li > ul:after {
-    border-left-color: #309267;
+    border-left-color: #254e58;
   }
   .nav ul li > a,
   a.searchOpen,
@@ -508,10 +516,10 @@ body {
     font-display: swap;
   }
   #main-nav > li.special > a {
-    background-color: #309267;
+    background-color: #254e58;
   }
   #main-nav > li.special > a:hover {
-    background-color: #6ec1e3;
+    background-color: #557a95;
   }
   #main-nav > li.special > a {
     color: #fff;
@@ -545,13 +553,13 @@ body {
   }
   .ribbon,
   ul.social-menu li a:hover {
-    background-color: #17082d;
+    background-color: #254e58;
   }
   .ribbon {
     color: #fff;
   }
   .ribbon:hover {
-    background-color: #309267;
+    background-color: #557a95;
   }
   .ribbon:hover {
     color: #fff;
@@ -563,7 +571,6 @@ body {
     border: none !important;
     -webkit-box-shadow: none !important;
             box-shadow: none !important;
-    background-color: #17082d !important;
     box-shadow: none;
     -webkit-backdrop-filter: blur(4px);
             backdrop-filter: blur(4px);
@@ -940,8 +947,8 @@ body {
   h1 {
     line-height: 1.2;
     font-weight: 700;
-    font-family: Quicksand, sans-serif;
-    color: #000000;
+    font-family: "mulish";
+    color: #ffffff;
     margin-top: 20px;
     margin-bottom: 20px;
     -webkit-transition: color 0.3s ease-in-out;
@@ -949,7 +956,7 @@ body {
     word-break: break-word;
   }
   p {
-    color: #000000;
+    color: #ffffff;
   }
   h1:first-child {
     margin-top: 0;
@@ -965,8 +972,7 @@ body {
   }
   main {
     background: #020024;
-    background: -webkit-gradient(linear, left top, left bottom, from(#e0f6ff), to(#ecfafc));
-    background: linear-gradient(#e0f6ff, #ecfafc);
+    background-color: #7395ae;
   }
   main ::-moz-selection {
     background-color: #056eb9;

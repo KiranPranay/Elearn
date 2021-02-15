@@ -1,7 +1,23 @@
 $red: #e74c3c;
+$background: #7395ae;
+$secbak: #557a95;
+$darkbak: #254e58;
+$bak3: #5d5c61;
+$bak4: #379683;
+$bak5: #b1a296;
+$textcol: #ffffff;
+//fonts
+@font-face {
+  font-family: "mulish";
+  src: url("fonts/Mulish-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   margin: 0;
   padding: 0;
+  font-family: "mulish";
+  color: #ffffff;
 }
 .html {
   scrollbar-face-color: #646464;
@@ -96,7 +112,8 @@ body {
   .topnav {
     // overflow: hidden;
     // background-color: #db3a58;
-    background-color: #602fdf;
+    // background-color: #602fdf;
+    background-color: $secbak;
   }
   .topnav:hover {
     opacity: 1;
@@ -119,8 +136,9 @@ body {
   #header .container_vis {
     // border: 1px solid rgba(255, 255, 255, 0.1);
     // box-shadow: 0px 0px 43px 10px rgba(0, 0, 0, 0.35);
-    background: rgba(255, 255, 255, 0.25) !important;
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+    // background: rgba(255, 255, 255, 0.25) !important;
+    // box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+    background-color: $secbak !important;
     backdrop-filter: blur(4px) !important;
     border-radius: 10px !important;
   }
@@ -473,22 +491,23 @@ body {
     background-color: #17082d;
   }
   .nav > li > a {
-    font-family: Karla;
+    font-family: "mulish";
     font-weight: 700;
     font-style: normal;
-    color: #111;
+    color: $textcol;
     font-size: 13px;
     font-display: swap;
+    letter-spacing: 0.8px;
   }
   li.current-menu-item > a,
   .nav > li > a:hover {
     color: #6ec1e3;
   }
   .nav li ul {
-    background-color: #309267;
+    background-color: #254e58;
   }
   .nav > li > ul:after {
-    border-left-color: #309267;
+    border-left-color: #254e58;
   }
   .nav ul li > a,
   a.searchOpen,
@@ -502,10 +521,10 @@ body {
     font-display: swap;
   }
   #main-nav > li.special > a {
-    background-color: #309267;
+    background-color: $darkbak;
   }
   #main-nav > li.special > a:hover {
-    background-color: #6ec1e3;
+    background-color: $secbak;
   }
   #main-nav > li.special > a {
     color: #fff;
@@ -539,13 +558,13 @@ body {
   }
   .ribbon,
   ul.social-menu li a:hover {
-    background-color: #17082d;
+    background-color: $darkbak;
   }
   .ribbon {
     color: #fff;
   }
   .ribbon:hover {
-    background-color: #309267;
+    background-color: $secbak;
   }
   .ribbon:hover {
     color: #fff;
@@ -555,7 +574,7 @@ body {
   #header .container_vis {
     border: none !important;
     box-shadow: none !important;
-    background-color: #17082d !important;
+    // background-color: #17082d !important;
     box-shadow: none;
     backdrop-filter: blur(4px);
     border-radius: 0px !important;
@@ -905,15 +924,15 @@ body {
   h1 {
     line-height: 1.2;
     font-weight: 700;
-    font-family: Quicksand, sans-serif;
-    color: #000000;
+    font-family: "mulish";
+    color: $textcol;
     margin-top: 20px;
     margin-bottom: 20px;
     transition: color 0.3s ease-in-out;
     word-break: break-word;
   }
   p {
-    color: #000000;
+    color: $textcol;
   }
   h1:first-child {
     margin-top: 0;
@@ -935,7 +954,8 @@ body {
     //   rgba(139, 8, 8, 1) 100%,
     //   rgba(0, 212, 255, 1) 100%
     // );
-    background: linear-gradient(#e0f6ff, #ecfafc);
+    // background: linear-gradient(#e0f6ff, #ecfafc);
+    background-color: $background;
   }
   main ::selection {
     background-color: #056eb9;
