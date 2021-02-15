@@ -443,7 +443,7 @@ body {
   .container,
   .container_vis {
     width: 100%;
-    max-width: 1240px;
+    // max-width: 1240px;
     margin: 0 auto;
     padding: 0 20px;
     overflow: hidden;
@@ -1011,11 +1011,11 @@ body {
     left: 0;
   }
   .start-screen--style-2 .img-shape:nth-of-type(2) {
-    max-width: 50%;
-    min-width: 550px;
+    width: 30%;
+    min-width: 370px;
     max-height: 90%;
-    top: 50%;
-    left: 45vw;
+    top: 46%;
+    left: 58vw;
     transform: translateY(-50%);
   }
 }
@@ -1083,6 +1083,7 @@ body {
     vertical-align: middle;
     -webkit-user-drag: none;
     user-select: none;
+    display: inline-block;
   }
   .store-btns ul {
     margin-top: -15px;
