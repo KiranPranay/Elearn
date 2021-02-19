@@ -13,6 +13,16 @@ $textcol: #ffffff;
   font-weight: normal;
   font-style: normal;
 }
+@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+:root {
+  --d: 700ms;
+  --e: cubic-bezier(0.19, 1, 0.22, 1);
+  --font-sans: "Rubik", sans-serif;
+  --font-serif: "Cardo", serif;
+}
+* {
+  transition: all 0.5s ease-in-out;
+}
 body {
   margin: 0;
   padding: 0;
@@ -172,6 +182,19 @@ body {
     display: block;
     z-index: 99;
   }
+  .slide-bottom {
+    animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  @keyframes slide-bottom {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(100px);
+    }
+  }
+
   .nav a {
     position: relative;
     display: block;
@@ -1190,13 +1213,7 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
 }
 
 // what we offer
-@import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
-:root {
-  --d: 700ms;
-  --e: cubic-bezier(0.19, 1, 0.22, 1);
-  --font-sans: "Rubik", sans-serif;
-  --font-serif: "Cardo", serif;
-}
+
 .whatweoffer {
   display: grid;
   place-items: center;
@@ -1326,8 +1343,7 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
     font-family: "mulish";
   }
   h1 {
-    margin: 2em;
-    margin-top: 0em;
+    margin-bottom: 2em;
   }
   .btn {
     cursor: pointer;

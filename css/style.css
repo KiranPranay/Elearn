@@ -6,6 +6,18 @@
   font-style: normal;
 }
 
+:root {
+  --d: 700ms;
+  --e: cubic-bezier(0.19, 1, 0.22, 1);
+  --font-sans: "Rubik", sans-serif;
+  --font-serif: "Cardo", serif;
+}
+
+* {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -163,6 +175,30 @@ body {
     line-height: 1;
     display: block;
     z-index: 99;
+  }
+  .slide-bottom {
+    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+            animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+  @-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
+  }
+  @keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(100px);
+              transform: translateY(100px);
+    }
   }
   .nav a {
     position: relative;
@@ -1221,13 +1257,6 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   --bs-gutter-x: 0;
 }
 
-:root {
-  --d: 700ms;
-  --e: cubic-bezier(0.19, 1, 0.22, 1);
-  --font-sans: "Rubik", sans-serif;
-  --font-serif: "Cardo", serif;
-}
-
 .whatweoffer {
   display: -ms-grid;
   display: grid;
@@ -1378,8 +1407,7 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
 }
 
 .whatweoffer h1 {
-  margin: 2em;
-  margin-top: 0em;
+  margin-bottom: 2em;
 }
 
 .whatweoffer .btn {
