@@ -967,7 +967,7 @@ body {
     letter-spacing: -0.05em;
   }
   h1 {
-    font-size: 4rem;
+    font-size: 2.2rem;
   }
   main {
     background: rgb(2, 0, 36);
@@ -1044,7 +1044,7 @@ body {
 }
 @media (min-width: 576px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 }
 @media (min-width: 768px) {
@@ -1170,6 +1170,11 @@ body {
 @media screen and (prefers-reduced-motion: reduce) {
   .store-btns a {
     transition: none;
+  }
+}
+@media (max-width: 576px) {
+  .store-btns a {
+    font-size: 1rem !important;
   }
 }
 /*! CSS Used from: Embedded */
