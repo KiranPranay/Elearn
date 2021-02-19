@@ -1224,8 +1224,8 @@ body {
 }
 
 @media (max-width: 995px) {
-  .main-container {
-    bottom: 6em;
+  .start-screen--full-height .start-screen__content__item {
+    min-height: 0 !important;
   }
 }
 
