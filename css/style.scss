@@ -1177,6 +1177,11 @@ body {
     font-size: 1rem !important;
   }
 }
+@media (max-width: 995px) {
+  .main-container {
+    bottom: 4em;
+  }
+}
 /*! CSS Used from: Embedded */
 img[data-opt-src]:not([data-opt-lazy-loaded]) {
   transition: 0.2s filter linear, 0.2s opacity linear, 0.2s border-radius linear;
