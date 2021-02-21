@@ -288,4 +288,8 @@ h1 {
   padding-top: 30px;
   position: relative;
 }
+
+.form-group .col-sm-12 {
+  margin-bottom: 7px;
+}
 /*# sourceMappingURL=contact.css.map */
