@@ -4,6 +4,20 @@
   padding: 12rem;
 }
 
+@media (max-width: 990px) {
+  .container-main {
+    padding-top: 12rem !important;
+    padding: 5rem;
+  }
+}
+
+@media (max-width: 870px) {
+  .container-main {
+    padding-top: 1rem !important;
+    padding: 1rem;
+  }
+}
+
 .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
 }
