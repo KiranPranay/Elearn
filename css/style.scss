@@ -1245,7 +1245,7 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   }
   @media (min-width: 800px) {
     .page-content {
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 
@@ -1321,9 +1321,9 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   .card:nth-child(3):before {
     background-image: url(../assests/vector/teacher_with_student_vector.svg);
   }
-  .card:nth-child(4):before {
-    background-image: url(../assests/vector/Student-05.webp);
-  }
+  // .card:nth-child(4):before {
+  //   background-image: url(../assests/vector/Student-05.webp);
+  // }
 
   .content {
     position: relative;
@@ -1346,10 +1346,10 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   }
 
   .copy {
-    font-family: var(--font-serif);
-    font-size: 1.125rem;
-    font-style: italic;
-    line-height: 1.35;
+    font-family: mulish;
+    // font-size: 1.125rem;
+    // font-style: italic;
+    // line-height: 1.35;
   }
   h2 {
     color: #ffffff;

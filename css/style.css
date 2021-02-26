@@ -1294,8 +1294,8 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
 
 @media (min-width: 800px) {
   .whatweoffer .page-content {
-    -ms-grid-columns: (1fr)[4];
-        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
   }
 }
 
@@ -1371,10 +1371,6 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   background-image: url(../assests/vector/teacher_with_student_vector.svg);
 }
 
-.whatweoffer .card:nth-child(4):before {
-  background-image: url(../assests/vector/Student-05.webp);
-}
-
 .whatweoffer .content {
   position: relative;
   display: -webkit-box;
@@ -1407,10 +1403,7 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
 }
 
 .whatweoffer .copy {
-  font-family: var(--font-serif);
-  font-size: 1.125rem;
-  font-style: italic;
-  line-height: 1.35;
+  font-family: mulish;
 }
 
 .whatweoffer h2 {
