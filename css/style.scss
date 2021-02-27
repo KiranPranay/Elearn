@@ -1351,6 +1351,22 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
     // font-style: italic;
     // line-height: 1.35;
   }
+  .copy.one {
+    font-size: 0.9rem !important;
+  }
+  .copy.two {
+    font-size: 0.8rem !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px;
+  }
+  .copy.three {
+    font-size: 0.8rem !important;
+    margin-bottom: 0px !important;
+    margin-top: 0px;
+  }
+  .btn.three {
+    margin-top: 2px;
+  }
   h2 {
     color: #ffffff;
     font-family: "mulish";

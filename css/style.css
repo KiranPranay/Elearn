@@ -1406,6 +1406,26 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   font-family: mulish;
 }
 
+.whatweoffer .copy.one {
+  font-size: 0.9rem !important;
+}
+
+.whatweoffer .copy.two {
+  font-size: 0.8rem !important;
+  margin-bottom: 0px !important;
+  margin-top: 0px;
+}
+
+.whatweoffer .copy.three {
+  font-size: 0.8rem !important;
+  margin-bottom: 0px !important;
+  margin-top: 0px;
+}
+
+.whatweoffer .btn.three {
+  margin-top: 2px;
+}
+
 .whatweoffer h2 {
   color: #ffffff;
   font-family: "mulish";
