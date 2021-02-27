@@ -489,4 +489,9 @@ main .page-section {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.theme-text {
+  text-align: center;
+  font-size: 25px;
+}
 /*# sourceMappingURL=about.css.map */

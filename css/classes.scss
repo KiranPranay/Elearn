@@ -40,6 +40,19 @@ $blue: #254e58;
       border-bottom: 1px solid $blue;
     }
   }
+  .Buttonwork{
+    text-align: center;
+    padding: 1em 1em;
+    width: fit-content;
+    color: $text;
+    font-size: 1.15rem;
+    font-weight: 400;
+    background-color: #254e58;
+    border-radius: 25px;
+  }
+  .Buttonwork:hover{
+    background-color: #03b5d2;
+  }
   button {
     position: relative;
     display: block;
@@ -105,7 +118,7 @@ $blue: #254e58;
     }
     + .accordion-content {
       opacity: 1;
-      max-height: 9em;
+      max-height: 100%;
       transition: all 200ms linear;
       will-change: opacity, max-height;
     }
