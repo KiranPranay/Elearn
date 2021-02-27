@@ -115,7 +115,7 @@
 
 .accordion button[aria-expanded="true"] + .accordion-content {
   opacity: 1;
-  max-height: 15rem;
+  max-height: 19rem;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   will-change: opacity, max-height;

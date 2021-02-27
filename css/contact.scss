@@ -252,6 +252,16 @@ hr {
 .contact-main {
   position: relative;
   padding-top: 130px;
+  p {
+    font-family: mulish;
+    font-size: 20px;
+    text-align: center !important;
+  }
+}
+@media (max-width: 868px) {
+  .contact-main {
+    padding-top: 0px;
+  }
 }
 
 // maps
@@ -276,6 +286,13 @@ h1 {
   width: 100%;
   margin: 0 auto;
   margin-top: 50px;
+}
+.container.map {
+  margin-top: 5rem;
+  h1 {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
 }
 
 #map_container {

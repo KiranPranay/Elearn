@@ -1269,6 +1269,20 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   --bs-gutter-x: 0;
 }
 
+@media (min-width: 600px) {
+  .subooo .page-contento {
+    -ms-grid-columns: (1fr)[1] !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+
+@media (min-width: 800px) {
+  .subooo .page-contento {
+    -ms-grid-columns: (1fr)[1] !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+
 .whatweoffer {
   display: -ms-grid;
   display: grid;

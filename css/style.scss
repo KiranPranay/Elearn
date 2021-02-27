@@ -1226,7 +1226,18 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
 }
 
 // what we offer
-
+.subooo {
+  @media (min-width: 600px) {
+    .page-contento {
+      grid-template-columns: repeat(1, 1fr) !important;
+    }
+  }
+  @media (min-width: 800px) {
+    .page-contento {
+      grid-template-columns: repeat(1, 1fr) !important;
+    }
+  }
+}
 .whatweoffer {
   display: grid;
   place-items: center;
