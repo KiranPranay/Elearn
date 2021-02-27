@@ -1230,6 +1230,11 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
 
 // what we offer
 .subooo {
+  .page-contento {
+    .card:nth-child(1):before {
+      background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/201906/hindi-1973909_1280_0.png);
+    }
+  }
   @media (min-width: 600px) {
     .page-contento {
       grid-template-columns: repeat(1, 1fr) !important;

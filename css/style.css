@@ -1273,6 +1273,10 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   --bs-gutter-x: 0;
 }
 
+.subooo .page-contento .card:nth-child(1):before {
+  background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/201906/hindi-1973909_1280_0.png);
+}
+
 @media (min-width: 600px) {
   .subooo .page-contento {
     -ms-grid-columns: (1fr)[1] !important;
