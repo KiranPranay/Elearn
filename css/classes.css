@@ -26,6 +26,23 @@
   border-bottom: 1px solid #254e58;
 }
 
+.accordion .Buttonwork {
+  text-align: center;
+  padding: 1em 1em;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #ffffff;
+  font-size: 1.15rem;
+  font-weight: 400;
+  background-color: #254e58;
+  border-radius: 25px;
+}
+
+.accordion .Buttonwork:hover {
+  background-color: #03b5d2;
+}
+
 .accordion button {
   position: relative;
   display: block;
@@ -100,7 +117,11 @@
 
 .accordion button[aria-expanded="true"] + .accordion-content {
   opacity: 1;
+<<<<<<< HEAD
   max-height: 12em;
+=======
+  max-height: 100%;
+>>>>>>> 1571f61f1f47854f857fcdcbcfd2e674549490ae
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   will-change: opacity, max-height;
