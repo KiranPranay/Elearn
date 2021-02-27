@@ -1357,6 +1357,9 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
     font-size: 1.3rem;
     font-weight: bold;
     line-height: 1.2;
+    text-shadow: 2px 2px #000;
+    -webkit-text-fill-color: #ffffff;
+    -webkit-text-stroke-width: 1px;
   }
 
   .copy {
