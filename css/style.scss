@@ -1231,18 +1231,36 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
 // what we offer
 .subooo {
   .page-contento {
+    display: grid;
+    grid-gap: 1rem;
+    padding: 1rem;
+    max-width: 1024px;
+    margin: 0 auto;
+    font-family: var(--font-sans);
     .card:nth-child(1):before {
-      background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/201906/hindi-1973909_1280_0.png);
+      background-image: url(../assests/vector/undraw_things_to_say_ewwb.svg);
+    }
+    .card:nth-child(2):before {
+      background-image: url(../assests/vector/undraw_mathematics_4otb.svg);
+    }
+    .card:nth-child(3):before {
+      background-image: url(../assests/vector/undraw_science_fqhl.svg);
+    }
+    .card:nth-child(4):before {
+      background-image: url(../assests/vector/undraw_Reading_book_re_kqpk.svg);
+    }
+    .card:nth-child(5):before {
+      background-image: url(../assests/vector/undraw_connected_world_wuay.svg);
     }
   }
   @media (min-width: 600px) {
     .page-contento {
-      grid-template-columns: repeat(1, 1fr) !important;
+      grid-template-columns: repeat(2, 1fr) !important;
     }
   }
   @media (min-width: 800px) {
     .page-contento {
-      grid-template-columns: repeat(1, 1fr) !important;
+      grid-template-columns: repeat(3, 1fr) !important;
     }
   }
 }
@@ -1332,13 +1350,13 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
     transition: transform calc(var(--d) * 2) var(--e);
   }
   .card:nth-child(1):before {
-    background-image: url(../assests/vector/children_03.svg);
+    background-image: url(../assests/vector/undraw_true_friends_c94g.svg);
   }
   .card:nth-child(2):before {
-    background-image: url(../assests/vector/children_02.svg);
+    background-image: url(../assests/vector/undraw_exams_g4ow.svg);
   }
   .card:nth-child(3):before {
-    background-image: url(../assests/vector/teacher_with_student_vector.svg);
+    background-image: url(../assests/vector/undraw_online_articles_79ff.svg);
   }
   // .card:nth-child(4):before {
   //   background-image: url(../assests/vector/Student-05.webp);
