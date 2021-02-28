@@ -37,8 +37,8 @@ body {
 .form-control,
 textarea {
   max-width: 400px;
-  color: #fff;
   letter-spacing: 1px;
+  padding: 12px;
 }
 
 .send-button {
