@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Cardo:400i|Rubik:400,700&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
 @font-face {
   font-family: "mulish";
   src: url("fonts/Mulish-Regular.ttf");
@@ -1965,5 +1967,296 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   .testim .cont div p {
     line-height: 25px;
   }
+}
+
+.listo-keys {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: #000;
+  /* entypo */
+}
+
+.listo-keys [class*="entypo-"]:before {
+  font-family: "entypo", sans-serif;
+}
+
+.listo-keys .toggler {
+  color: #a1a1a4;
+  font-size: 1.25em;
+  margin-left: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.listo-keys .toggler.active {
+  color: #000;
+}
+
+.listo-keys .surveys {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.listo-keys .survey-item {
+  display: block;
+  margin-top: 10px;
+  padding: 20px;
+  border-radius: 2px;
+  background: white;
+  -webkit-box-shadow: 0 2px 1px rgba(170, 170, 170, 0.25);
+          box-shadow: 0 2px 1px rgba(170, 170, 170, 0.25);
+}
+
+.listo-keys .survey-name {
+  font-weight: 400;
+}
+
+.listo-keys .list .survey-item {
+  position: relative;
+  padding: 0;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.listo-keys .list .survey-item .pull-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .listo-keys .list .stage:not(.active) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .listo-keys .list .survey-progress-bg {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .listo-keys .list .pull-right {
+    position: static;
+    line-height: 20px;
+    padding-bottom: 10px;
+  }
+}
+
+.listo-keys .list .survey-country,
+.listo-keys .list .survey-progress,
+.listo-keys .list .survey-completes,
+.listo-keys .list .survey-end-date {
+  color: #a1a1a4;
+}
+
+.listo-keys .list .survey-country,
+.listo-keys .list .survey-completes,
+.listo-keys .list .survey-end-date,
+.listo-keys .list .survey-name,
+.listo-keys .list .survey-stage {
+  margin: 0 10px;
+}
+
+.listo-keys .list .survey-country {
+  margin-right: 0;
+}
+
+.listo-keys .list .survey-end-date,
+.listo-keys .list .survey-completes,
+.listo-keys .list .survey-country,
+.listo-keys .list .survey-name {
+  vertical-align: middle;
+}
+
+.listo-keys .list .survey-end-date {
+  display: inline-block;
+  width: 100px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.listo-keys .survey-stage .stage {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0 2px;
+  background: #f2f2f2;
+  text-indent: -9999px;
+  color: transparent;
+  line-height: 16px;
+}
+
+.listo-keys .survey-stage .stage.active {
+  background: #a1a1a4;
+}
+
+.listo-keys .list .list-only {
+  display: auto;
+}
+
+.listo-keys .list .grid-only {
+  display: none !important;
+}
+
+.listo-keys .grid .grid-only {
+  display: auto;
+}
+
+.listo-keys .grid .list-only {
+  display: none !important;
+}
+
+.listo-keys .grid .survey-item {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height: 200px;
+  width: 250px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .listo-keys .grid .survey-item {
+    display: block;
+    width: auto;
+    height: 150px;
+    margin: 10px auto;
+  }
+}
+
+.listo-keys .grid .survey-name {
+  display: block;
+  max-width: 80%;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.listo-keys .grid .survey-country {
+  font-size: 11px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.listo-keys .grid .survey-country,
+.listo-keys .grid .survey-end-date {
+  color: #a1a1a4;
+}
+
+.listo-keys .grid .survey-end-date:before {
+  content: "Ends\00a0";
+}
+
+.listo-keys .grid .survey-end-date.ended:before {
+  content: "Ended\00a0";
+}
+
+.listo-keys .grid .survey-progress {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 20px;
+  border-top: 1px solid #eee;
+  font-size: 13px;
+}
+
+.listo-keys .grid .survey-progress-bg {
+  width: 40%;
+  display: block;
+}
+
+@media screen and (max-width: 200px) {
+  .listo-keys .grid .survey-progress-bg {
+    display: none;
+  }
+}
+
+.listo-keys .grid .survey-progress-labels {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 200px) {
+  .listo-keys .grid .survey-progress-labels {
+    right: auto;
+    left: 10px;
+  }
+}
+
+.listo-keys .grid .survey-progress-label {
+  line-height: 21px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.listo-keys .grid .survey-completes {
+  line-height: 21px;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+.listo-keys .grid .survey-stage {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.listo-keys .grid .survey-stage .stage {
+  display: none;
+}
+
+.listo-keys .grid .survey-stage .active {
+  display: block;
+}
+
+.listo-keys .grid .survey-end-date {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.listo-keys .survey-progress-label {
+  vertical-align: middle;
+  margin: 0 10px;
+  color: #8dc63f;
+}
+
+.listo-keys .survey-progress-bg {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 100px;
+  height: 4px;
+  border-radius: 2px;
+  overflow: hidden;
+  background: #eee;
+}
+
+.listo-keys .survey-progress-fg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  background: #8dc63f;
 }
 /*# sourceMappingURL=style.css.map */
