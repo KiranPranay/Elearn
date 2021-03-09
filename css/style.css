@@ -1047,6 +1047,9 @@ body {
     color: #056eb9;
     text-decoration: none;
   }
+  .header1 {
+    height: 38vh;
+  }
   .start-screen {
     position: relative;
     z-index: 1;
@@ -1970,6 +1973,7 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
 }
 
 .listo-keys {
+  padding-top: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2003,7 +2007,8 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
 .listo-keys .surveys {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding-left: 50px;
+  padding-top: 70px;
 }
 
 .listo-keys .survey-item {
