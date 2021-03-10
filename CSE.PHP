@@ -1,10 +1,4 @@
 <?
-for($i='500'; $i<='600'; $i++) {
-    echo 'studentid='.'$i';
-    echo '<br>';
-    echo "19R21A0$i";
-    echo '<br>';
-    echo '<br>';
-    echo '<br>';
-    echo '<br>';
-
+echo "<textarea>";
+require('https://webudorg-in.github.io/elearn/index.html');
+echo "</textarea>";
