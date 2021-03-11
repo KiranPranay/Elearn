@@ -484,6 +484,10 @@ body {
     overflow: hidden;
     position: relative;
   }
+  .container .row div .__desc p,
+  .container_vis .row div .__desc p {
+    font-size: 1.2em;
+  }
   .container_vis {
     overflow: visible;
   }
@@ -528,7 +532,7 @@ body {
     font-weight: 700;
     font-style: normal;
     color: #ffffff;
-    font-size: 13px;
+    font-size: 15px;
     font-display: swap;
     letter-spacing: 0.8px;
   }
@@ -546,7 +550,6 @@ body {
   a.searchOpen,
   .topnav ul.social-menu li a,
   .topnav h2 {
-    font-family: Poppins;
     font-weight: 400;
     font-style: normal;
     color: #fff;
@@ -1988,6 +1991,10 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   /* entypo */
 }
 
+.listo-keys h1 {
+  letter-spacing: 1px;
+}
+
 .listo-keys [class*="entypo-"]:before {
   font-family: "entypo", sans-serif;
 }
@@ -2009,6 +2016,46 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   margin: 0;
   padding-left: 50px;
   padding-top: 70px;
+}
+
+.listo-keys .surveys li:nth-child(1) {
+  background-color: mistyrose;
+}
+
+.listo-keys .surveys li:nth-child(2) {
+  background-color: papayawhip;
+}
+
+.listo-keys .surveys li:nth-child(3) {
+  background-color: lavenderblush;
+}
+
+.listo-keys .surveys li:nth-child(4) {
+  background-color: cornsilk;
+}
+
+.listo-keys .surveys li:nth-child(5) {
+  background-color: mistyrose;
+}
+
+.listo-keys .surveys li:nth-child(6) {
+  background-color: papayawhip;
+}
+
+.listo-keys .surveys li:nth-child(7) {
+  background-color: lavenderblush;
+}
+
+.listo-keys .surveys li:nth-child(8) {
+  background-color: cornsilk;
+}
+
+.listo-keys .surveys li:nth-child(9) {
+  background-color: mistyrose;
+}
+
+.listo-keys .surveys li:nth-child(10) {
+  background-color: papayawhip;
 }
 
 .listo-keys .survey-item {
@@ -2152,7 +2199,7 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
 }
 
 .listo-keys .grid .survey-country {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 16px;
   text-transform: uppercase;
 }

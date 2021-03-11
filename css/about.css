@@ -359,6 +359,16 @@ h2 {
 main .page-section {
   padding: 60px 0;
   background-color: #40e0d0;
+  padding-top: 0px;
+  position: relative;
+  top: -140px;
+}
+
+@media (max-width: 870px) {
+  .page-section {
+    position: relative;
+    top: -280px !important;
+  }
 }
 
 .themes .container {
@@ -415,7 +425,7 @@ main .page-section {
 .themes .container .row .info .theme-info {
   font-size: 1.2rem;
   font-weight: 700;
-  opacity: 0.5;
+  opacity: 0.9;
   word-spacing: 3px;
   text-align: right;
   font-family: "Josefin Sans", sans-serif;
