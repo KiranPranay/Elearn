@@ -50,7 +50,7 @@
   width: 100%;
   padding: 1em 0;
   color: #ffffff;
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   font-weight: 400;
   border: none;
   background: none;
@@ -115,7 +115,7 @@
 
 .accordion button[aria-expanded="true"] + .accordion-content {
   opacity: 1;
-  max-height: 19rem;
+  max-height: 60rem;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
   will-change: opacity, max-height;
