@@ -121,6 +121,12 @@
   will-change: opacity, max-height;
 }
 
+.accordion .img1 {
+  height: auto;
+  width: 50px;
+  max-width: 150px;
+}
+
 .accordion .accordion-content {
   opacity: 0;
   max-height: 0;
