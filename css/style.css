@@ -120,7 +120,7 @@ body {
     padding: 0;
   }
   .topnav {
-    background-color: #557a95;
+    background-color: #838EDE;
   }
   .topnav:hover {
     opacity: 1;
@@ -141,7 +141,7 @@ body {
     z-index: 10;
   }
   #header .container_vis {
-    background-color: #557a95 !important;
+    background-color: #838EDE !important;
     -webkit-backdrop-filter: blur(4px) !important;
             backdrop-filter: blur(4px) !important;
     border-radius: 10px !important;
@@ -560,7 +560,7 @@ body {
     background-color: #254e58;
   }
   #main-nav > li.special > a:hover {
-    background-color: #557a95;
+    background-color: #838EDE;
   }
   #main-nav > li.special > a {
     color: #fff;
@@ -600,7 +600,7 @@ body {
     color: #fff;
   }
   .ribbon:hover {
-    background-color: #557a95;
+    background-color: #838EDE;
   }
   .ribbon:hover {
     color: #fff;
