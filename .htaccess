@@ -6,7 +6,6 @@ RewriteCond %{HTTP_HOST} (www\.)?vaishri.education
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # DO NOT REMOVE THIS LINE AND THE LINES BELLOW SSL_REDIRECT:vaishri.education
 
-RewriteEngine on
 
 
 RewriteCond %{THE_REQUEST} /([^.]+)\.html [NC]
