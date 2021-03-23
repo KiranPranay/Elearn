@@ -3,9 +3,6 @@
     $name = $_POST["name"];
     $email= $_POST["email"];
     $text= $_POST["message"];
-    
-
-
     $headers = 'MIME-Version: 1.0' . "\r\n";
     $headers .= "From: " . $email . "\r\n"; // Sender's E-mail
     $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
@@ -53,6 +50,7 @@
 
     <footer class="site-footer" id="footer">
         <p class="site-footer__fineprint" id="fineprint">Copyright ©2021 | All Rights Reserved</p>
+        <a class="site-footer__fineprint" id="fineprint" href="https://vaishri.education/">Return to Home Page</a>
     </footer>
 </body>
 
