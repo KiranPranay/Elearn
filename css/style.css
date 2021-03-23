@@ -2310,4 +2310,9 @@ img[data-opt-src]:not([data-opt-lazy-loaded]) {
   margin: 0;
   background: #8dc63f;
 }
+
+.imgfooter {
+  width: auto;
+  height: 200px;
+}
 /*# sourceMappingURL=style.css.map */
